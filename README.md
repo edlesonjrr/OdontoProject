@@ -1,131 +1,42 @@
+## Visão Geral
+Bem-vindo ao repositório do projeto do Consultório Odontológico da Doutora Amanda Maylla! Este projeto tem como objetivo criar uma página web moderna e funcional para promover os serviços odontológicos da Doutora Amanda Maylla, uma profissional experiente com mais de 10 anos na área, especializada em estética dental e ortodontia. O site apresenta informações sobre os serviços oferecidos, como clareamento dental, aparelhos ortodônticos, implantes e restaurações, além de destacar a missão de transformar sorrisos e cuidar da saúde bucal com carinho e excelência.
 
-# WeatherApp 🌦️
+## Propósito
+O site foi desenvolvido para:
+- Atrair novos pacientes com um design acolhedor e persuasivo.
+- Apresentar a trajetória e os diferenciais da Doutora Amanda Maylla.
+- Facilitar o agendamento de consultas com uma chamada clara para ação.
+- Oferecer uma experiência visual agradável e responsiva em diferentes dispositivos.
 
-A WeatherApp é um aplicativo web simples para consultar o clima em tempo real, utilizando dados de uma API meteorológica. Este projeto foi desenvolvido para fins de aprendizado e prática de desenvolvimento web e CI/CD.
+## Tecnologias Utilizadas
+- **HTML5**: Estrutura básica das páginas.
+- **CSS3**: Estilização responsiva, incluindo layouts de duas colunas e ajustes de imagem.
+- **JavaScript** (opcional): Pode ser usado para interatividade, como formulários ou animações (se implementado).
+- **Ferramentas de Design**: Imagens e logotipo personalizados para reforçar a identidade visual.
 
-## ✨ Funcionalidades
+## Estrutura do Projeto
+- `index.html`: Página principal com seções como "Sobre", "Serviços" e "Contato".
+- `styles.css`: Arquivo de estilos personalizado para layout e responsividade.
+- `images/`: Pasta contendo imagens do consultório, da Doutora Amanda e logotipos.
+- `README.md`: Este arquivo de documentação.
 
-- Consulta de clima atual para uma cidade específica.
-- Interface simples e intuitiva.
-- Pipeline CI/CD configurada com GitHub Actions para automação de build, testes e deploy.
+## Como Usar
+1. **Clonar o Repositório**:
+   ```bash
+   git clone https://github.com/seu-usuario/consultorio-amanda-maylla.git
+   ```
+2. **Abrir o Projeto**:
+   - Navegue até a pasta do projeto e abra o arquivo `index.html` em um navegador web.
+3. **Personalização**:
+   - Edite o `index.html` para adicionar mais seções ou conteúdo.
+   - Ajuste o `styles.css` para alterar cores, fontes ou layout conforme necessário.
+   - Substitua as imagens na pasta `images/` por versões atualizadas.
 
-## 🛠️ Tecnologias Utilizadas
+## Contribuições
+Sinta-se à vontade para sugerir melhorias ou adicionar funcionalidades, como um formulário de contato ou integração com redes sociais. Envie um pull request ou abra uma issue com suas ideias!
 
-- **HTML, CSS, JavaScript**: Para a interface e lógica do frontend.
-- **API de Clima**: Integração com uma API de clima (ex.: OpenWeatherMap, a ser confirmada).
-- **GitHub Actions**: Para automação de CI/CD.
+## Licença
+Este projeto está sob a [MIT License](LICENSE) - veja o arquivo `LICENSE` para mais detalhes.
 
-## 🚀 Como Rodar o Projeto Localmente
-
-Siga os passos abaixo para executar o WeatherApp na sua máquina:
-
-### Pré-requisitos
-
-- Navegador web (ex.: Chrome, Firefox).
-- (Opcional) Uma chave de API para a OpenWeatherMap, se aplicável.
-
-### Passos
-
-Clone o repositório:
-
-```bash
-git clone https://github.com/edlesonjrr/WeatherApp.git
-cd WeatherApp
-```
-
-Abra o projeto:
-
-Se for um projeto estático, abra o arquivo `index.html` diretamente no navegador:
-
-```bash
-open index.html  # Mac
-start index.html  # Windows
-```
-
-Se houver dependências (ex.: Node.js), instale-as:
-
-```bash
-npm install
-npm start
-```
-
-Configure a API de Clima (se aplicável):
-
-- Crie um arquivo `.env` na raiz do projeto.
-- Adicione sua chave da API:
-
-```bash
-API_KEY=sua-chave-da-openweathermap
-```
-
-Siga as instruções da API para integração.
-
-Acesse no navegador:
-
-Abra [http://localhost:3000](http://localhost:3000) (ou a porta configurada) para ver o WeatherApp.
-
-## 🌐 Deploy
-
-Atualmente, o deploy é simulado na pipeline CI/CD. Para hospedar o WeatherApp, você pode usar:
-
-- **GitHub Pages**: Configure em `Settings → Pages`, usando a branch `main`.
-- **Netlify**: Conecte o repositório ao Netlify para deploy automático.
-
-## 🏗️ Pipeline CI/CD
-
-O projeto utiliza GitHub Actions para automação de CI/CD. A pipeline roda em pushes e pull requests nas branches `main` e `feat/*`.
-
-### Estágios da Pipeline
-
-- **Initialization**: Simula instalação de dependências.
-- **Build**: Simula compilação do projeto.
-- **Security Check**: Simula verificações de segurança.
-- **Package**: Simula empacotamento.
-- **Quality Tests**: Simula testes de qualidade.
-- **Validation**: Simula validação do artefato.
-- **Deploy**: Simula deploy (produção para `main`, desenvolvimento para outras branches).
-
-### Fluxo de Desenvolvimento
-
-- **main**: Branch de produção.
-- **feat/<nome>**: Branches de desenvolvimento (ex.: `feat/update`).
-- Crie pull requests de `feat/<nome>` para `main` para revisar e mesclar mudanças.
-
-## 🤝 Como Contribuir
-
-Fork o repositório.
-
-Crie uma branch para sua feature:
-
-```bash
-git checkout -b feat/sua-feature
-```
-
-Faça suas alterações e commit:
-
-```bash
-git commit -m "Adiciona sua feature"
-```
-
-Envie para o repositório remoto:
-
-```bash
-git push origin feat/sua-feature
-```
-
-Abra um pull request para a branch `main`.
-
-## 📝 Licença
-
-Este projeto está licenciado sob a **MIT License**.
-
-## 📧 Contato
-
-Para dúvidas ou sugestões, entre em contato:
-
-- **GitHub**: [edlesonjrr](https://github.com/edlesonjrr)
-- **Email**: edleson050@gmail.com
-
----
-
-Sinta o Clima. Viva a Vida. **WeatherApp**.
+## Contato
+Para mais informações sobre a Doutora Amanda Maylla ou o consultório, visite o site ou entre em contato pelo número comercial disponível na página. Estamos ansiosos para cuidar do seu sorriso!
